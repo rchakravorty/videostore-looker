@@ -2,7 +2,7 @@
 
 
 view: CALENDAR_DATE {
-  sql_table_name: DC_CALENDAR_DATE ;;
+  sql_table_name: CALENDAR_DATE ;;
   
   
   dimension: DAY_OF_WEEK { 
