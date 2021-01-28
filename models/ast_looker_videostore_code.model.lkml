@@ -9,6 +9,26 @@ persist_with: ast_looker_videostore_code_default_datagroup
 explore:CALENDAR_DATE{}
 explore:FISCAL_DATE{}
 explore:PRODUCT{}
-explore:SALES_FACT{}
 explore:STORE{}
 explore:TARGET_SALES{}
+
+#added manually
+
+explore : SALES_FACT {
+  label: "Monthly Sales Analysis"
+  join: STORE {
+    sql_on: ${SALES_FACT.STORE_KEY} = ${STORE.STORE_KEY} ;;
+    type: inner
+    relationship: one_to_one
+  }
+  join: PRODUCT {
+    sql_on: ${SALES_FACT.PRODUCT_KEY} = ${PRODUCT.PRODUCT_KEY} ;;
+    type: inner
+    relationship: one_to_one
+  }
+#  join: TIMES {
+#    sql_on: ${sales_fact.time_key} = ${times.time_key} ;;
+#    type: inner
+#    relationship: one_to_one
+#  }
+}
