@@ -2,7 +2,7 @@
 
 
 view: FISCAL_DATE {
-  sql_table_name: video5.FISCAL_DATE ;;
+  sql_table_name: video5.TIMES ;;
   
   
   dimension: DAY_OF_WEEK { 
