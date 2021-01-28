@@ -2,7 +2,7 @@
 
 
 view: FISCAL_DATE {
-  sql_table_name: DC_FISCAL_DATE ;;
+  sql_table_name: FISCAL_DATE ;;
   
   
   dimension: DAY_OF_WEEK { 
