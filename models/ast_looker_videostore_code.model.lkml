@@ -6,3 +6,9 @@ datagroup: ast_looker_videostore_code_default_datagroup {
 }
 
 persist_with: ast_looker_videostore_code_default_datagroup
+explore:CALENDAR_DATE{}
+explore:FISCAL_DATE{}
+explore:PRODUCT{}
+explore:SALES_FACT{}
+explore:STORE{}
+explore:TARGET_SALES{}
