@@ -2,7 +2,7 @@
 
 
 view: CALENDAR_DATE {
-  sql_table_name: video5.CALENDAR_DATE ;;
+  sql_table_name: video5.TIMES ;;
   
   
   dimension: DAY_OF_WEEK { 
