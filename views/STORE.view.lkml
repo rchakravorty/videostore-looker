@@ -2,7 +2,7 @@
 
 
 view: STORE {
-  sql_table_name: DC_STORE ;;
+  sql_table_name: STORE ;;
   
   
   dimension: CITY { 
