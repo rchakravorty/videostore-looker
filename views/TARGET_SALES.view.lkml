@@ -2,7 +2,7 @@
 
 
 view: TARGET_SALES {
-  sql_table_name: DC_TARGET_SALES ;;
+  sql_table_name: TARGET_SALES ;;
   
   
   dimension: TIME_KEY { 
