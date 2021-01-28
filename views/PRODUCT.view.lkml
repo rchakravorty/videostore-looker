@@ -2,7 +2,7 @@
 
 
 view: PRODUCT {
-  sql_table_name: DC_PRODUCT ;;
+  sql_table_name: PRODUCT ;;
   
   
   dimension: AGE_CATEGORY { 
