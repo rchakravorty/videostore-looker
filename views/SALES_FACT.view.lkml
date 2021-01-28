@@ -2,7 +2,7 @@
 
 
 view: SALES_FACT {
-  sql_table_name: DC_SALES_FACT ;;
+  sql_table_name: SALES_FACT ;;
   
   
   dimension: CUSTOMER_COUNT { 
