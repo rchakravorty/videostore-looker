@@ -26,8 +26,8 @@ explore : SALES_FACT {
     type: inner
     relationship: one_to_one
   }
-  join: CALENDAR_DATE {
-    sql_on: ${SALES_FACT.TIME_KEY} = ${CALENDAR_DATE.TIME_KEY} ;;
+  join: FISCAL_DATE {
+    sql_on: ${SALES_FACT.TIME_KEY} = ${FISCAL_DATE.TIME_KEY} ;;
     type: inner
     relationship: one_to_one
   }
