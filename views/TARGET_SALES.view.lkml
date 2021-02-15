@@ -15,5 +15,5 @@ view: target_sales {
   measure: target_sales { 
     type: sum
     label: "target_sales"
-    sql: ${TABLE}.TARGET_SALES ;; }
+    sql: ${TABLE}.target_sales ;; }
   }
