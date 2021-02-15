@@ -29,15 +29,15 @@ view: sales_fact {
   measure: cost { 
     type: sum
     label: "cost"
-    sql: ${TABLE}.COST ;; }
+    sql: ${TABLE}.cost ;; }
   measure: count {   type: count
     drill_fields: [ ]  }
   measure: profit { 
     type: sum
     label: "profit"
-    sql: ${TABLE}.PROFIT ;; }
+    sql: ${TABLE}.profit ;; }
   measure: sales { 
     type: sum
     label: "sales"
-    sql: ${TABLE}.SALES ;; }
+    sql: ${TABLE}.sales ;; }
   }
