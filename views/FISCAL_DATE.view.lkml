@@ -21,7 +21,7 @@ view: fiscal_date {
     type: date
     label: "transaction_date"
     sql: ${TABLE}.transaction_date ;; }
-  dimension_group: TIMES_transaction_date { 
+  dimension_group: times_transaction_date { 
     timeframes: [date,month,year]
     type: time
     convert_tz: no
