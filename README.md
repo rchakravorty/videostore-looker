@@ -1,2 +1,0 @@
-# videostore-looker
-# Adding readme
