@@ -1,5 +1,5 @@
 connection: "disco_db_connection"
-include: "/views/*.view.lkml"
+include: "/fii_accounts_payable/views/*.view.lkml"
 
  explore: fii_ap_expense_reports1 { 
    
