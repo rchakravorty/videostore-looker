@@ -1,6 +1,6 @@
 connection: "disco_db_connection"
-include: "/views/*.view.lkml"
-include: "/views/*.view.lkml"
+include: "/video_store_tutorial/views/*.view.lkml"
+
 
  explore: calendar_date { 
    
